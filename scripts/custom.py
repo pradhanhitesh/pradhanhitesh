@@ -47,6 +47,7 @@ def arrange_metadata(search_terms):
         data.append([search_terms,extracted_number])
     
     data_df = pd.DataFrame(data,columns=['Keywords','Count'])
+    data_df = data_df.sort_values(by='Count',ascending=False)
 
     return data_df
 

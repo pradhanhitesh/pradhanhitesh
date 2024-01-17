@@ -60,8 +60,7 @@ def generate_plot(data_df,time):
     ax.bar_label(ax.containers[0])
     txt = "Last updated on: " + str(time)
     plt.text(3.1, 269000, txt, fontsize = 16)
-    plt.show()
-
+ 
     # Save the figure
     plt.savefig('figure.png',bbox_inches='tight')
     plt.close()

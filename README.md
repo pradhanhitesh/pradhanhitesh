@@ -18,8 +18,9 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 | Something | Something |
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
-<h1 align = "center">Dynamic Visualization of PubMed Article Counts: A Real-time Insight into Research Trends</h1>
-
+<h1 align = "center">Dynamic Visualization of PubMed Article Counts</h1>
+This updates automatically.
 <p align="center">
+    This updates automatically.
     <img src="figure.png" width="650" height="400">
 </p>

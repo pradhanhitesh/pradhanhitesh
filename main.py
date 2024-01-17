@@ -75,7 +75,7 @@ template_vars = {
     'time' : get_timestamp(),
     'search_terms' : 'dementia+AD',
     'extracted_number' : 26700,
-    'plot' : f'<img src="{png_files[0]}" width="600" height="300">'
+    'plot' : f'<img src="{png_files[0]}" width="600" height="400">'
 
 }
 

@@ -56,7 +56,6 @@ def generate_plot(data_df,time):
     plt.xticks(range(len(data_df)), list(data_df['Keywords']), rotation=45)
 
     # Create barplots
-    sns.barplot(data=data_df,x='Keywords',y='Count')
     ax = sns.barplot(data=data_df,x='Keywords',y='Count')
     ax.bar_label(ax.containers[0])
     txt = "Last updated on: " + str(time)

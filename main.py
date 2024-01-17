@@ -79,7 +79,7 @@ template_vars = {
 
 }
 
-env = Environment(loader=FileSystemLoader("/template"))
+env = Environment(loader=FileSystemLoader("template"))
 template = env.get_template("template.html")
 output_from_parsed_template = template.render(template_vars)
 

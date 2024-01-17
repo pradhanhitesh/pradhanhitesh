@@ -17,3 +17,8 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 | - | - |
 | Something | Something |
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
+
+<h1 align = "center"></h1>
+<p align="center">
+    {{ plot }}
+</p>

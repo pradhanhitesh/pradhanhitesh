@@ -67,7 +67,7 @@ plt.text(3.1, 269000, txt, fontsize = 16)
 plt.savefig('figure.png',bbox_inches='tight')
 plt.close()
 
-all_files = os.listdir("E:\Kaggle\pradhanhitesh")
+all_files = os.listdir("./")
 png_files = [file for file in all_files if file.endswith('.png')]
 
 # <img src="{png_file}" width="600" height="400">

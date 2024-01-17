@@ -15,3 +15,8 @@ def main():
 
     with open("README.md", "w+") as fh:
         fh.write(output_from_parsed_template)
+
+    return
+
+if __name__ == "__main__":
+    main()

@@ -6,7 +6,7 @@ def main():
                     "dementia+alzheimers+MRI"]
 
     data_df = custom.arrange_metadata(search_terms)
-    custom.generate_plot(data_df,custom.get_timestamp())
+    custom.generate_plot(data_df,time=custom.get_timestamp())
     template_vars = custom.generate_html_for_plot()
 
     env = Environment(loader=FileSystemLoader("template"))

@@ -5,7 +5,8 @@ def main():
     search_terms = ["dementia","dementia+alzheimers","alzheimers","alzheimers+disease","dementia+MRI","alzheimers+MRI",
                     "dementia+alzheimers+MRI"]
 
-    data_df = custom.arrange_metadata(search_terms)
+    data_df,data_dict = custom.arrange_metadata(search_terms)
+    custom.update_pubmed_json(data_dict=data_dict)
     custom.generate_plot(data_df,time=custom.get_timestamp())
     template_vars = custom.generate_html_for_plot()
 

@@ -1,12 +1,12 @@
 name: README Update
 
-# on:
-#   # push:      # run @ every push
-#   schedule:
-#     - cron: '0 14,18,22 * * *' 
-
 on:
-  workflow_dispatch:
+  # push:      # run @ every push
+  schedule:
+    - cron: '0 9 * * *' 
+
+# on:
+#   workflow_dispatch:
 
 jobs:
   build:

@@ -59,8 +59,8 @@ def generate_plot(data_df,time):
     # Create barplots
     ax = sns.barplot(data=data_df,x='Keywords',y='Count')
     ax.bar_label(ax.containers[0])
-    txt = "Last updated on: " + str(time)
-    plt.text(3.1, 269000, txt, fontsize = 16)
+    txt = "Last updated on: " + str(time) + " UTC"
+    plt.text(2.9, 269000, txt, fontsize = 16)
  
     # Save the figure
     plt.savefig('figure.png',bbox_inches='tight')

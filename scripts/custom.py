@@ -10,6 +10,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from jinja2 import Environment, FileSystemLoader
+import json
 
 def get_timestamp():
     t = time.localtime()
@@ -39,17 +40,37 @@ def get_metadata(search_terms):
 
     return search_terms,extracted_number
 
+def add_element(dict, key, value):
+    if key not in dict:
+        dict[key] = []
+    dict[key].append(value)
+
 def arrange_metadata(search_terms):
 
     data = []
+    data_dict = {}
+    add_element(data_dict,'Timestamp',get_timestamp())
     for k in search_terms:
         search_terms,extracted_number =  get_metadata(k)
+        add_element(data_dict,search_terms,extracted_number)
         data.append([search_terms,extracted_number])
     
     data_df = pd.DataFrame(data,columns=['Keywords','Count'])
     data_df = data_df.sort_values(by='Count',ascending=False)
 
-    return data_df
+    return data_df,data_dict
+
+def update_pubmed_json(data_dict):
+    with open("data/pubmed.json") as doc:
+        docObj = json.load(doc)
+        docObj.append(
+            data_dict
+        )
+    with open("data/pubmed.json", 'w') as json_file:
+        json.dump(docObj, json_file, 
+                  indent=4,  
+                  separators=(',',': '))
+    return
 
 def generate_plot(data_df,time):
     # Set defaults for plot

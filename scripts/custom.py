@@ -80,8 +80,8 @@ def generate_plot(data_df,time):
     # Create barplots
     ax = sns.barplot(data=data_df,x='Keywords',y='Count')
     ax.bar_label(ax.containers[0])
-    txt = "Last updated on: " + str(time) + " UTC"
-    plt.text(2.6, 269000, txt, fontsize = 16)
+    # txt = "Last updated on: " + str(time) + " UTC"
+    # plt.text(2.6, 269000, txt, fontsize = 16)
  
     # Save the figure
     plt.savefig('figure.png',bbox_inches='tight')
@@ -94,7 +94,8 @@ def generate_html_for_plot():
     png_files = [file for file in all_files if file.endswith('.png')]
 
     template_vars = {
-        'plot' : f'<img src="{png_files[0]}" width="650" height="400">'
+        'plot' : f'<img src="{png_files[0]}" width="650" height="400">',
+        'timestamp' : get_timestamp()
         }
     
     return template_vars

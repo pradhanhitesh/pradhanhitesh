@@ -1,4 +1,5 @@
-name: README Update
+name: Update README
+# Source code: Clayton Hamilton https://github.com/claytonjhamilton
 
 on:
   # push:      # run @ every push
@@ -37,10 +38,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Auto update README"
-          git push
-          
-      # - name: push changes
-      #   uses: ad-m/github-push-action@v0.6.0
-      #   with:
-      #     github_token: ${{ secrets.MY_TOKEN }}
-      #     branch: main 
+          git push 

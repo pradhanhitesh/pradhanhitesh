@@ -1,13 +1,13 @@
 name: Update README
 # Source code: Clayton Hamilton https://github.com/claytonjhamilton
 
-# on:
-#   # push:      # run @ every push
-#   schedule:
-#     - cron: '0 9 * * *' 
-
 on:
-  workflow_dispatch:
+  # push:      # run @ every push
+  schedule:
+    - cron: '0 9 * * *' 
+
+# on:
+#   workflow_dispatch:
 
 jobs:
   build:

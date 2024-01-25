@@ -16,7 +16,7 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 | 💻 **Projects** | 🚀 **Outcome** | ⚙️ **Skills**
 | - | - | - |
 | <a href="https://cbr.iisc.ac.in/research/flagship-projects/sanscog/">SANSCOG</a> Data Management | Implemented data harmonization process across various databases such as MRI, Blood Biochemistry, APOE, and Clinical for better user experience | Database Management; Python; Excel |
-| something |something | something |
+| Classification of MCI subtypes using cognitive domains |something | something |
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
 <h1 align = "center">Visualization of PubMed Article Counts</h1>

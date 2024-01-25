@@ -13,9 +13,9 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 ```
 
 <!-- START OF PROFILE STACK, DO NOT REMOVE -->
-| 💻 **Software** | 🚀 **Projects** |
+| 💻 **Projects** | 🚀 **Outcome** |
 | - | - |
-| Something | Something |
+| SANSCOG Data Management | Implemented data harmonization process across various databases such as MRI, Blood Biochemistry, APOE, and Clinical |
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
 <h1 align = "center">Visualization of PubMed Article Counts</h1>

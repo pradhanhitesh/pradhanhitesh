@@ -15,7 +15,7 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 <!-- START OF PROFILE STACK, DO NOT REMOVE -->
 | 💻 **Projects** | 🚀 **Outcome** 
 | - | - |
-|[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=FENS-JobsAlert&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/FENS-JobsAlert)|s|s|
+|[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=FENS-JobsAlert&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/FENS-JobsAlert)| Weekly email blasts consisting job posting collected from FENS |
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
 <h1 align = "center">Visualization of PubMed Article Counts</h1>

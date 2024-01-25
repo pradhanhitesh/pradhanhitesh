@@ -11,10 +11,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from jinja2 import Environment, FileSystemLoader
 import json
+import pytz
 
 def get_timestamp():
-    t = time.localtime()
-    return time.strftime('%Y-%m-%d %H:%M:%S', t)
+    current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
+    format_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
+    return format_time
 
 def get_metadata(search_terms):
 

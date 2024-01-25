@@ -4,7 +4,7 @@ name: Update README
 on:
   # push:      # run @ every push
   schedule:
-    - cron: '0 9 * * *' 
+    - cron: '30 11 * * *' 
 
 # on:
 #   workflow_dispatch:

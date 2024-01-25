@@ -19,9 +19,11 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
 <h1 align = "center">Visualization of PubMed Article Counts</h1>
+Dementia, a prevalent cognitive disorder affecting millions globally, demands extensive research and attention due to its profound impact on individuals, families, and societies. As the global population continues to age, understanding the mechanisms, risk factors, and potential treatments for dementia becomes increasingly urgent. Extensive research is essential to unravel the complex biological, genetic, and environmental factors contributing to the onset and progression of dementia. This research can illuminate pathways for early detection, intervention, and prevention strategies. Moreover, it can lead to the development of targeted therapies that may alleviate symptoms or slow the progression of the condition .
+
 The section collects number of articles indexed under particular keyword from <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> everyday using GitHub actions. As of <b> 2024-01-25 17:05:06 </b> IST, number of articles indexed for the following keywords are as follows:
 <p align="center">
     <img src="figure.png" width="650" height="400">
 </p>
-Dementia, a prevalent cognitive disorder affecting millions globally, demands extensive research and attention due to its profound impact on individuals, families, and societies. As the global population continues to age, understanding the mechanisms, risk factors, and potential treatments for dementia becomes increasingly urgent. Extensive research is essential to unravel the complex biological, genetic, and environmental factors contributing to the onset and progression of dementia. This research can illuminate pathways for early detection, intervention, and prevention strategies. Moreover, it can lead to the development of targeted therapies that may alleviate symptoms or slow the progression of the condition 
+
 

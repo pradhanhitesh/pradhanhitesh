@@ -24,8 +24,6 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 
 <p>The section collects number of articles indexed under particular keyword from <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> everyday using GitHub actions. As of <b> 2024-01-25 17:05:06 </b> IST, number of articles indexed for the following keywords are as follows:</p>
 
-<h1 align = "center">Visualization of PubMed Article Counts</h1>
-The section collects number of articles indexed under particular keyword from <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> everyday using GitHub actions. As of <b> 2024-01-26 17:04:59 </b> IST, number of articles indexed for the following keywords are as follows:
 <p align="center">
     <img src="figure.png" width="650" height="400">
 </p>

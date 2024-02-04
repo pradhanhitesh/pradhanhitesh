@@ -96,7 +96,7 @@ def generate_html_for_plot():
     png_files = [file for file in all_files if file.endswith('.png')]
 
     template_vars = {
-        'plot' : f'<img src="{png_files[0]}" width="650" height="400">',
+        'plot' : f'<img src="{png_files[0]}" width="700" height="400">',
         'timestamp' : get_timestamp()
         }
     

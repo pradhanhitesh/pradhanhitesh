@@ -1,4 +1,7 @@
-# 👨🏻‍💻🧠👨‍🔬 Hitesh Pradhan : Profile under construction :warning:
+# 👨🏻‍💻🧠👨‍🔬 Hitesh Pradhan
+<p align="left">
+    <img src="./image/Connectome-Box.png" width="500" height="500">
+</p>
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/pradhitesh?style=social)](https://twitter.com/intent/follow?screen_name=pradhitesh)
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/pradhanhitesh/)](https://www.linkedin.com/in/pradhanhitesh/)

@@ -17,10 +17,9 @@ Passionate neuroscientist dedicated to unraveling neurodegenerative diseases, pa
 | - | - |
 |[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=FENS-JobsAlert&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/FENS-JobsAlert)|
 Weekly email blasts consisting job posting collected from FENS |
-|[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=3D-MRI-Transformations&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/3D-MRI-Transformations)|Working
-on collecting research-based 3D MRI transformation techniques|
-|[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=Neuroimage-Plugins&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/3D-MRI-Transformations)|Small Neuroimage-Plugins
-for easy neuroimaging analysis workflow|
+|[![notion-portfolio-tracker](https://img.shields.io/static/v1?label=&message=3D-MRI-Transformations&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/pradhanhitesh/3D-MRI-Transformations)|
+Working on collecting research-based 3D MRI transformation techniques|
+
 <!-- END OF PROFILE STACK, DO NOT REMOVE -->
 
 <h1 align = "center">Visualization of PubMed Article Counts</h1>

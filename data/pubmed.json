@@ -3820,5 +3820,31 @@
         "dementia+alzheimers+MRI": [
             18542
         ]
+    },
+    {
+        "Timestamp": [
+            "2024-06-16 17:05:51"
+        ],
+        "dementia": [
+            284804
+        ],
+        "dementia+alzheimers": [
+            219124
+        ],
+        "alzheimers": [
+            232331
+        ],
+        "alzheimers+disease": [
+            217803
+        ],
+        "dementia+MRI": [
+            25767
+        ],
+        "alzheimers+MRI": [
+            19426
+        ],
+        "dementia+alzheimers+MRI": [
+            18545
+        ]
     }
 ]

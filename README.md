@@ -38,7 +38,7 @@ cognitive impairment**. Join me in this exciting journey as we make a lasting im
     symptoms or slow the progression of the condition.</p>
 
 <p>The section collects number of articles indexed under particular keyword from <a
-        href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> everyday using GitHub actions. As of <b> 2024-09-25 17:05:45 </b>
+        href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> everyday using GitHub actions. As of <b> 2024-09-26 17:06:22 </b>
     IST, number of articles indexed for the following keywords are as follows:</p>
 
 <p align="center">
